@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0px;
+    padding: 0px;
+    width: 100%;
+	font-family: "幼圆";
+}
+.p, .h1, .h2, .div, .img {
+    padding: 0px;
+    margin: 0px;
+}
+a:link {
+    text-decoration: none;
+    color: rgba(0,0,0,1);
+}
+a:visited {
+    text-decoration: none;
+    color: rgba(0,0,0,1);
+}
+a:hover {
+    text-decoration: none;
+    color: rgba(40,0,255,1);
+}
+a:active {
+    text-decoration: none;
+    color: rgba(0,255,59,1);
+}

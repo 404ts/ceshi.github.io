@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+.divtop1 {
+    height: 36px;
+    background-color: rgba(255,255,255,0.50);
+    line-height: 35px;
+    padding-left: 10%;
+}
+.divtop1 ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 50%;
+}
+.divtop1 ul li {
+    float: left;
+    display: block;
+    text-align: center;
+    background-color: rgba(235,255,240,0.50);
+    border-radius: 20px;
+    margin-left: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 30px;
+    margin-top: 2px;
+    overflow-y: hidden;
+    color: rgba(0,0,0,1.00);
+}
+.divtop1 ul li:hover {
+    background-color: rgba(255,0,0,0.50);
+}
+.divc {
+    width: 90%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.divcleft h1 {
+    font-family: "幼圆";
+    font-size: 24px;
+    background-color: rgba(255,255,255,0.50);
+    height: 50px;
+    line-height: 50px;
+}
+
+.divcleft {
+    width: 60%;
+    height: 75vh;
+    float: left;
+}
+.divleftc {
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+	overflow-x: hidden;
+    overflow-y: scroll;
+    list-style-type: none;
+    background-color: rgba(255,255,255,0.50);
+    padding-top: 20px;
+}
+.divleftc::-webkit-scrollbar {
+        display: none;
+    }
+.divleftc li{
+	margin-bottom: 10px;
+	padding: 20px;
+}
+.divcleft img {
+    width: 80%;
+    height: 350px;
+    margin-left: 60px;
+}
+.divcright {
+    width: 30%;
+    float: left;
+    height: 100%;
+    margin-left: 30px;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.52);
+    margin-top: 20px;
+}
+.divcright ul {
+    font-family: "幼圆";
+    font-size: 20px;
+    color: rgba(120,120,120,1.00);
+    list-style-type: square;
+}
+center a {
+    font-family: "华文琥珀";
+    font-size: 20px;
+    margin-top: 30px;
+    float: left;
+    width: 30%;
+    background-color: rgba(255,255,255,0.50);
+    margin-left: 30px;
+}
+.div1 {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
+
+.divcright ul li {
+    color: rgba(108,108,108,1.00);
+    margin-top: 50px;
+}
+body {
+    background-image: url("../../../image/bg.jpg");
+}

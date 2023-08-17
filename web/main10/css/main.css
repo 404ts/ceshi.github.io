@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+
+.divtop1 {
+    height: 36px;
+    background-color: rgba(0,0,0,0.50);
+    line-height: 35px;
+    padding-left: 10%;
+    margin-bottom: 20px;
+}
+
+.divtop1 ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 50%;
+}
+.divtop1 ul li {
+    float: left;
+    display: block;
+    text-align: center;
+    background-color: rgba(235,255,240,0.50);
+    border-radius: 20px;
+    margin-left: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 30px;
+    margin-top: 2px;
+    overflow-y: hidden;
+    color: rgba(0,0,0,1.00);
+}
+.divtop1 ul li:hover {
+    background-color: rgba(255,0,0,0.50);
+}.divc {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: rgba(246,248,250,1.00);
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    height: 80vh;
+}
+.divc p {
+    font-weight: bold;
+    color: rgba(0,0,0,1.00);
+    text-indent: 2em;
+    font-size: 16px;
+}
+
+.divcc {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.divcc table  {
+    width: 100%;
+    color: rgba(104,104,104,1.00);
+}
+.divcc h2  {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(113,113,113,1.00);
+}
+.top {
+    height: 3px;
+    background-image: -webkit-linear-gradient(0deg,rgba(19,0,255,1.00) 0%,rgba(255,0,0,1.00) 100%);
+    background-image: -moz-linear-gradient(0deg,rgba(19,0,255,1.00) 0%,rgba(255,0,0,1.00) 100%);
+    background-image: -o-linear-gradient(0deg,rgba(19,0,255,1.00) 0%,rgba(255,0,0,1.00) 100%);
+    background-image: linear-gradient(90deg,rgba(19,0,255,1.00) 0%,rgba(255,0,0,1.00) 100%);
+}
+.divc h1 {
+    color: rgba(0,0,0,1.00);
+    font-size: 30px;
+    text-align: center;
+}
+.divbottom {
+    text-align: center;
+    background-color: rgba(239,239,240,1.00);
+    margin-top: 50px;
+    height: 180px;
+    margin-left: 0px;
+    padding-top: 20px;
+}
+.divbottomleft  {
+    float: left;
+    margin-top: 40px;
+}

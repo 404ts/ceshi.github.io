@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="shortcut icon" type="image/x-icon" href="https://www.bilibili.com/favicon.ico" media="screen" />
+<title>扒拉扒拉( ゜- ゜)つロ干杯</title>
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<link href="../../css/base.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+function MM_validateForm() { //v4.0
+  if (document.getElementById){
+    var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+    for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=document.getElementById(args[i]);
+      if (val) { nm=val.name; if ((val=val.value)!="") {
+        if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
+          if (p<1 || p==(val.length-1)) errors+='- '+nm+' must contain an e-mail address.\n';
+        } else if (test!='R') { num = parseFloat(val);
+          if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
+          if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
+            min=test.substring(8,p); max=test.substring(p+1);
+            if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+      } } } else if (test.charAt(0) == 'R') errors += '- '+nm+' is required.\n'; }
+    } if (errors) alert('The following error(s) occurred:\n'+errors);
+    document.MM_returnValue = (errors == '');
+} }
+</script>
+</head>
+
+<body>
+<div class="divtop1">
+	<ul><a name="zhuye" id="zhuye"></a>
+	  <li><a href="../../web/main1/main1.html">Back</a></li>
+	  <li><a href="https://wpa.qq.com/msgrd?v=3&uin=761810885&site=qq&menu=yes" target="new">Author</a></li>
+	  <li><a href="../../web/main5/main5.html">Introduce</a></li>
+	 </ul>
+</div>
+<div class="divc">
+<table width="800" border="0">
+  <tbody>
+    <tr>
+      <td height="60" colspan="4" bgcolor="#BEE6D2" style="text-align: center; font-size: 24px; font-family: '华文琥珀';">Social investigations</td>
+      </tr>
+	    <tr>
+      <td height="43" colspan="2" bgcolor="#898989" style="text-align: left">Basic：</td>
+      <td colspan="2" bgcolor="#7F7F7F" style="text-align: left">Contact way:</td>
+      </tr>
+    <tr>
+      <td width="11%" height="32" style="text-align: right">Name：</td>
+      <td width="39%"><input type="text" value="please input" onmousemove="if(this.value=='Please input'){this.value='';}" onmouseout="this.value='Please input'"/></td>
+      <td width="12%" style="text-align: right">QQ：</td>
+      <td width="38%"><input name="qq" type="text" id="qq" onmousemove="if(this.value=='Please input'){this.value='';}" onmouseout="this.value='Please input'" value="Please input"/></td>
+    </tr>
+    <tr>
+      <td height="32" style="text-align: right">Sex：</td>
+      <td><input name="sex" type="radio" id="radio" value="男" checked="checked">
+        不男不女          
+          <input type="radio" name="sex" id="radio2" value="女">
+          雌雄同体</td>
+      <td style="text-align: right">Tel：</td>
+      <td><input name="tel" type="text" id="tel" onmousemove="if(this.value=='Please input'){this.value='';}" onmouseout="this.value='Please input'" value="Please input"/></td>
+    </tr>
+    <tr>
+      <td height="32" style="text-align: right">Nation：</td>
+      <td><select name="select" id="select">
+        <option value="汉族">Ethnic Han</option>
+        <option value="少数民族">Minority</option>
+      </select></td>
+      <td style="text-align: right">Wechit：</td>
+      <td><input name="wechit" type="text" id="wechit" onmousemove="if(this.value=='Please input'){this.value='';}" onmouseout="this.value='Please input'" value="Please input"/></td>
+    </tr>
+    <tr>
+      <td height="32" style="text-align: right">Place abode：</td>
+      <td><input name="dizhi" type="text" id="dizhi" onmousemove="if(this.value=='Please input'){this.value='';}" onmouseout="this.value='Please input'" value="Please input"/></td>
+      <td style="text-align: right">Eail地址：</td>
+      <td><input name="dizhi" type="text" id="edizhi" onmousemove="if(this.value=='Please input'){this.value='';}" onmouseout="this.value='Please input'" value="Please input"/></td>
+    </tr>
+    <tr>
+      <td height="32" colspan="4" bgcolor="#979797" style="text-align: center">Interest survey</td>
+      </tr>
+    <tr>
+      <td height="50" style="text-align: right">Loved movie：</td>
+      <td><p>
+        <label>
+          <input type="checkbox" name="影视" value="小猪佩奇" id="影视_0">
+          Peppa pig</label>
+        <br>
+        <label>
+          <input type="checkbox" name="影视" value="小马宝莉" id="影视_1">
+          Pony polly</label>
+        <br>
+      </p></td>
+      <td style="text-align: right">Trip mode：</td>
+      <td><p>
+        <label>
+          <input type="checkbox" name="出行" value="白天想象" id="出行_0">
+          Daydream</label>
+        <br>
+        <label>
+          <input type="checkbox" name="出行" value="晚上做梦" id="出行_1">
+          Dream</label>
+        <br>
+      </p></td>
+    </tr>
+    <tr>
+      <td style="text-align: right">Advice：</td>
+      <td colspan="3" rowspan="2"><textarea name="意见" rows="12" id="意见" ></textarea></td>
+      </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="27" colspan="4"><marquee behavior="alternate">Think you very much for your particpation in our research.</marquee></td>
+      </tr>
+    <tr>
+      <td height="39">&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td> <input type="reset" name="reset" id="reset" value="Reset">
+		  <input name="submit" type="submit" id="submit" onClick="MM_validateForm('qq','','NisNum','email','','NisEmail');return document.MM_returnValue" value="Submit">
+       </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</body>
+</html>

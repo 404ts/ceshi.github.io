@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+.divtop1 {
+    height: 36px;
+    background-color: rgba(255,255,255,0.20);
+    line-height: 35px;
+    padding-left: 10%;
+}
+.divtop1 ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+.divtop1 ul li {
+    float: left;
+    display: block;
+    text-align: center;
+    background-color: rgba(235,255,240,0.50);
+    border-radius: 20px;
+    margin-left: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 30px;
+    margin-top: 2px;
+    overflow-y: hidden;
+    color: rgba(0,0,0,1.00);
+}
+.divtop1 ul li:hover {
+    background-color: rgba(255,0,0,0.50);
+}body {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../../../image/404.gif);
+    background-size: 100% 100%;
+}
+.divc {
+    width: 100%;
+    height: 30%;
+    background-color: rgba(52,95,191,1.00);
+    margin-top: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: rgba(69,230,200,1.00);
+    font-size: 18px;
+}

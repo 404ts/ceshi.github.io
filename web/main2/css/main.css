@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+.divc {
+    width: 100%;
+    height: 95vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+.divc video {
+    width: 100%;
+    height: 100%;
+}
+.divtop1 {
+    height: 36px;
+    background-color: rgba(255,255,255,0.50);
+    line-height: 35px;
+    padding-left: 10%;
+    margin-top: 0px;
+}
+.divtop1 ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 50%;
+}
+.divtop1 ul li {
+    float: left;
+    display: block;
+    text-align: center;
+    background-color: rgba(235,255,240,0.50);
+    border-radius: 20px;
+    margin-left: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 30px;
+    margin-top: 2px;
+    overflow-y: hidden;
+    color: rgba(0,0,0,1.00);
+}
+.divtop1 ul li:hover {
+    background-color: rgba(255,0,0,0.50);
+}
+body {
+    background-color: rgba(0,0,0,1.00);	
+}

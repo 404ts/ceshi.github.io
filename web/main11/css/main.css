@@ -1,0 +1,203 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.4 
+2009-07-27
+Author: Richard Clark - http://richclarkdesign.com
+*/
+.divtop1 {
+    height: 36px;
+    
+    background-color: rgba(0,0,0,0.20);
+    line-height: 35px;
+    padding-left: 10%;
+}
+
+.divtop1 ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 50%;
+}
+.divtop1 ul li {
+    float: left;
+    display: block;
+    text-align: center;
+    background-color: rgba(235,255,240,0.50);
+    border-radius: 20px;
+    margin-left: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 30px;
+    margin-top: 2px;
+    overflow-y: hidden;
+    color: rgba(0,0,0,1.00);
+}
+.divtop1 ul li:hover {
+    background-color: rgba(255,0,0,0.50);
+}
+html, body, div, span,ul,li {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+	font-weight: normal;
+}
+body {
+    line-height: 1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article, aside, dialog, figure, footer, header, 
+hgroup, nav, section { 
+	display:block;
+}
+
+nav ul {
+	list-style:none;
+}
+
+
+body { background: #ddd url(../images/noise.jpg); font-family: Arial, Helvetica, sans-serif; }
+
+
+#container {
+    width: 85%;
+    padding: 0 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------
+A CSS3 presentation demonstrating how to take advantage of modern browsers while still allowing the content to be easily
+accessible in older, less capable browsers.
+Inspired by http://playground.deaxon.com/css/lightbox by http://twitter.com/deaxon 
+---------------------------------------------------------------------------------------------------------------------------- */
+
+h2.title { font-size: 68px; letter-spacing: -3px; font-weight: bold; text-align: center; margin-top: 35px; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6); }
+h2.title span { font-size: 38px; line-height: 48px; display: block; letter-spacing: -2px; color: rgba(51, 51, 51, 0.5); }
+
+/* -------------------------------------------------------------------------------------------------------------------------
+Grid of images
+---------------------------------------------------------------------------------------------------------------------------- */
+#grid { margin: 35px 0; }
+/*
+Add the transition affect to the images in the grid. Any changes to the element will be transtioned from it's current state, for example on :hover */
+#grid li {
+    float: left;
+    list-style: none;
+    margin: 0 25px 25px 0;
+    position: relative;
+    overflow: hidden;
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 0.15s ease-in;
+    -moz-transition: all 0.15s ease-in;
+    -ms-transition: all 0.15s ease-in;
+    transition: all 0.15s ease-in;
+    width: 30%;
+}
+#grid li img {
+    width: 100%;
+
+}
+
+#grid li.end {
+	margin-right: 0; 
+}
+#grid li:nth-child(3n) {
+	margin-right: 0;
+}
+#grid li:hover { z-index: 2;
+	-webkit-transform: scale(1.2) translateY(0px);	
+	-moz-transform: scale(1.2) translateY(0px);	
+	-ms-transform: scale(1.2) translateY(0px);	
+	transform: scale(1.2) translateY(0px);	
+	-webkit-box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+	box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+}
+/*
+Rotate left hand column to the left upon hover */
+#grid li:nth-child(3n-2):hover {
+	-webkit-transform: scale(1.2) translate3d(0, -30px, 0) rotate(-2.5deg);
+	-moz-transform: scale(1.2) translateY(-30px) rotate(-2.5deg);
+	-ms-transform: scale(1.2) translateY(-30px) rotate(-2.5deg);
+	transform: scale(1.2) translateY(-30px) rotate(-2.5deg);
+}
+/*
+Rotate every third li with :nth-child(3n) (right hand column in this demo) to the right upon hover */
+#grid li:nth-child(3n):hover {
+	-webkit-transform: scale(1.2) translate3d(0, -30px, 0) rotate(2.5deg);	
+	-moz-transform: scale(1.2) translateY(-30px) rotate(2.5deg);	
+	-ms-transform: scale(1.2) translateY(-30px) rotate(2.5deg);	
+	transform: scale(1.2) translateY(-30px) rotate(2.5deg);	
+}
+
+#grid img, li[id]:target div, #grid li, .backface {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+
+/* -------------------------------------------------------------------------------------------------------------------------
+A CSS3 presentation demonstrating how to take advantage of modern browsers while still allowing the content to be easily
+accessible in older, less capable browsers.
+Inspired by http://playground.deaxon.com/css/lightbox by http://twitter.com/deaxon 
+---------------------------------------------------------------------------------------------------------------------------- */
+
+h2.title { font-size: 68px; letter-spacing: -3px; font-weight: bold; text-align: center; margin-top: 35px; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6); }
+h2.title span { font-size: 38px; line-height: 48px; display: block; letter-spacing: -2px; color: rgba(51, 51, 51, 0.5); }
+
+/* -------------------------------------------------------------------------------------------------------------------------
+Grid of images
+---------------------------------------------------------------------------------------------------------------------------- */
+#grid { margin: 35px 0; }
+/*
+Add the transition affect to the images in the grid. Any changes to the element will be transtioned from it's current state, for example on :hover */
+#grid li { float: left; list-style: none; margin: 0 25px 25px 0; position: relative; overflow: hidden; border-top: 1px solid rgba(255, 255, 255, 0.25);
+	-webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 0.15s ease-in;
+	-moz-transition: all 0.15s ease-in;
+	-ms-transition: all 0.15s ease-in;
+	transition: all 0.15s ease-in;
+}
+#grid li.end { margin-right: 0; }
+#grid li:nth-child(3n) { margin-right: 0; }
+#grid li:hover { z-index: 2;
+	-webkit-transform: scale(1.2) translateY(-40px);	
+	-moz-transform: scale(1.2) translateY(-40px);	
+	-ms-transform: scale(1.2) translateY(-40px);	
+	transform: scale(1.2) translateY(-40px);	
+	-webkit-box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+}
+/*
+Rotate left hand column to the left upon hover */
+#grid li:nth-child(3n-2):hover {
+	-webkit-transform: scale(1.2) translate3d(0, -30px, 0) rotate(-2.5deg);
+	-moz-transform: scale(1.2) translateY(-30px) rotate(-2.5deg);
+	-ms-transform: scale(1.2) translateY(-30px) rotate(-2.5deg);
+	transform: scale(1.2) translateY(-30px) rotate(-2.5deg);
+}
+/*
+Rotate every third li with :nth-child(3n) (right hand column in this demo) to the right upon hover */
+#grid li:nth-child(3n):hover {
+	-webkit-transform: scale(1.2) translate3d(0, -30px, 0) rotate(2.5deg);	
+	-moz-transform: scale(1.2) translateY(-30px) rotate(2.5deg);	
+	-ms-transform: scale(1.2) translateY(-30px) rotate(2.5deg);	
+	transform: scale(1.2) translateY(-30px) rotate(2.5deg);	
+}
+li[id]:target::-webkit-scrollbar { width: 8px; background-color: rgba(0,0,0,0.6); position: relative; }
+li[id]:target::-webkit-scrollbar-thumb { -webkit-border-radius: 1ex; background-color: #6CF; }
+
+

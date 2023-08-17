@@ -1,0 +1,413 @@
+﻿body {
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url("../../../image/bg.jpg");	
+}
+.divtop {
+    width: 100%;
+    margin: 0px;
+    height: 180px;
+    background-size: 100% 100%;
+    background-color: rgba(218,218,255,0.50);
+}
+
+.div1 ul li video{
+    width: 100%;
+    height: 100%;
+}
+
+.divtop1 {
+    height: 36px;
+    background-color: rgba(255,255,255,0.50);
+    line-height: 35px;
+    padding-left: 10%;
+}
+.divtop1 ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+.divtop1 ul li {
+    float: left;
+    display: block;
+    text-align: center;
+    background-color: rgba(235,255,240,0.50);
+    border-radius: 20px;
+    margin-left: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 30px;
+    margin-top: 2px;
+    overflow: hidden;
+    color: rgba(0,0,0,1.00);
+}
+.divtop1 ul li:hover {
+    background-color: rgba(255,0,0,0.50);
+}
+.divtop3 {
+    width: 350px;
+    height: 100px;
+    margin-top: 30px;
+	margin-right: 200px;
+    background-size: 100% 100%;
+    float: right;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.divtop2 {
+    width: 350px;
+    height: 100px;
+    background-image: url(../../../image/bg00.png);
+    margin-top: 30px;
+    margin-left: 200px;
+    background-size: 100% 100%;
+    float: left;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.no1 {
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    padding: 0px;
+    background-color: rgba(218,218,255,0.50);
+    position: relative;
+    border-top-width: medium;
+    border-bottom: 1px solid #2C3734;
+    margin-bottom: 20px;
+}
+
+.no1 ul {
+    padding: 0px;
+    float: left;
+    width: 100%;
+    margin-top: 0px;
+}
+.no1 ul li {
+    display: block;
+    float: left;
+    list-style-type: none;
+    width: 12%;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+}
+.no1 ul li a:hover{
+    background-color: rgba(200,255,220,0.50);
+    display: block;
+}
+.no1 ul li a {
+    height: 40px;
+    width: 100%;
+    display: block;
+}
+.no1 ul li ul {
+    display: none;
+}
+.no1 ul li:hover ul {
+    display: block;
+}
+.no1 ul li ul li {
+	overflow: hidden;
+    display: inline;
+    list-style-type: none;
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #3E2F2F;
+}
+.no1 ul li ul li a{
+    display: block;
+    width: 100%;
+    background-color: rgba(218,218,255,0.50);
+}
+.no1 ul li ul li a:hover {
+    background-color: rgba(200,255,220,0.50);
+}
+.body1 {
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div1 {
+    width: 100%;
+    height: 400px;
+    padding: 1px;
+    margin-top: 30px;
+    border-radius: 20px;
+    border: 1px solid rgba(0,63,255,1.00);
+}
+
+.div1left {
+    width: 50%;
+    height: 400px;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    background-image: url(../../../image/blw.gif);
+    background-size: 100% 100%;
+    text-align: center;
+    line-height: 400px;
+    color: rgba(255,255,255,1.00);
+    font-size: 36px;
+    font-family: "幼圆";
+    border-radius: 20px;
+    font-weight: bold;
+}
+.div1left img {
+    width: 100%;
+    height: 100%;
+}
+.div1left a {
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+    height: 100%;
+}
+.div1left a:hover {
+    background-color: rgba(255,255,255,0.50);
+}
+.div1right {
+    width: 50%;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+.bf{
+    width: 80px;
+    height: 80px;
+	margin-left: 45%;
+	padding-top: 20px;
+}
+.bf img{
+	width: 100%;
+	height: 100%;
+}
+.div1 ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.div1 ul li {
+    float: left;
+    display: block;
+    width: 48%;
+    height: 190px;
+    text-align: center;
+    padding: 0;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.div2 {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    font-size: 26px;
+    border: 1px solid rgba(0,49,255,1.00);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgba(255,255,255,0.20);
+}
+
+.div2c ul li img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.div2c {
+    width: 100%;
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 450px;
+}
+.div3 {
+    width: 100%;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: auto;
+    text-indent: 2em;
+    font-family: "幼圆";
+    font-size: 18px;
+    border: 1px solid rgba(0,49,255,1.00);
+    background-color: rgba(255,255,255,0.20);
+    overflow: hidden;
+    font-weight: bold;
+}
+.div3 div img {
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 200pt;
+}
+
+.div2c ul {
+    padding: 0px;
+    margin-left: 20px;
+    list-style-type: none;
+}
+.div2c ul li {
+    float: left;
+    display: block;
+    width: 23%;
+	overflow: hidden;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    background-color: rgba(255,255,255,0.20);
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-family: "幼圆";
+    font-weight: bold;
+    border-radius: 20px;
+    font-size: 40px;
+}
+.linone{
+    width: 100%;
+    height: 100%;
+}
+.linone h1{
+    margin-top: 45px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    background-color: rgba(255,255,255,0.50);
+}
+.linone h2{
+    margin-top: 45px;
+    margin-left: -10%;
+    width: 120%;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    transform: rotate(-15deg);
+    background-color: rgba(255,215,0,0.60);
+    border: 1px solid rgba(140,137,0,0.30);
+}
+.linone h3{
+	margin-top: 0px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    background-color: rgba(255,255,255,0.50);
+}
+.div2c ul li:hover img {
+    display: none; 
+}
+.div2c ul li:hover{
+    border-radius: 0px;
+}
+.div2h1 {
+    text-indent: 2em;
+    height: 40px;
+    line-height: 40px;
+    font-family: "幼圆";
+    background-color: rgba(255,255,255,0.50);
+    color: rgba(0,0,0,1.00);
+}
+.div2c ul li a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.ico1 {
+    height: 100%;
+    float: left;
+    background-image: url(../../../image/d02.jpg);
+    background-size: cover;
+    width: 40px;
+}
+.i {
+    float: right;
+    font-size: 16px;
+    color: rgba(0,0,0,1.00);
+    font-style: normal;
+    margin-right: 100px;
+}
+.folat{
+    width: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    height: auto;
+    border: 1px solid rgba(5,0,255,1.00);
+    position: fixed;
+    margin-left: 89%;
+    background-color: rgba(255,255,255,0.50);
+}
+.folat ul {
+    list-style-type: none;
+    margin-left: -40px;
+}
+.folat ul  li {
+    margin-top: 6px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    background-color: rgba(205,238,203,1.00);
+    width: 50px;
+    margin-left: -5px;
+}
+.folat ul li:hover {
+    background-color: rgba(225,0,0,0.50);
+}
+
+.divbottom {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    clear: both;
+    line-height: 50px;
+    background-color: rgba(255,255,255,0.50);
+    font-size: 18px;
+}
+.dcl{
+    height: 100px;
+    position: fixed;
+    folat: left;
+    margin-top: 50vh;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.dc {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid rgba(255,0,0,1.00);
+    float: left;
+    background-color: rgba(0,0,0,.20);
+}
+.dcl audio{
+    float: left;
+    margin-left: 120px;
+    margin-top: -75px;
+}
+
+.dc img {
+    height: 100%;
+    width: 100%;
+}
+.divtop2 iframe {
+    overflow: hidden;
+    width: 350px;
+    border-radius: 20px;
+    height: 200px;
+}
